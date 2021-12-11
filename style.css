@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+}
+
+.header {
+    display: grid;
+    color: black;
+    text-align: center;
+    font-size : 2em;
+}
+
+.logo {
+    text-align: center;
+    background-color: lightblue;
+    font-size : 2em;
+}
+
+.country {
+    border-top: 10px solid white;
+    text-align: center;
+    background-color: rgb(177, 243, 134);
+    font-size : 2em;
+    border-bottom: 10px solid white;
+}
+
+.plus {
+    background: url(images/plus.png) no-repeat left center;
+    height: 50px;
+    background-size: 50px;
+    cursor: pointer;
+}
+.minus {
+    background: url(images/minus.png) no-repeat left center;
+    background-size: 50px;
+    height : 5px;
+  
+}
+.hide {
+    display: none;
+}
+  
+
+.city {
+    text-align: center;
+    font-size : 2em;
+    background-color: lightcoral;
+    border-bottom: 10px solid white;
+}
+
+
+.logopic {
+    text-align: center;
+    height: 20vh;
+}
+
+.countrypic {
+    text-align: center;
+    height: 50vh;
+    border : 5px solid white;
+}
+
+.citypic1 {
+    text-align: center;
+    height: 50vh;
+    border : 5px solid white;
+}
+
+
+.citypic2 {
+    text-align: center;
+    height: 50vh;
+    border : 5px solid white;
+}
+
+.cityItems {
+    display : grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.transportationpic1 {
+    text-align: center;
+    height: 40vh;
+    border : 5px solid white;
+}
+
+
+.transportationpic2 {
+    text-align: center;
+    height: 40vh;
+    border : 5px solid white;
+}
+
+.trasnportationItems {
+    display : grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.transportation {
+    text-align: center;
+    font-size : 2em;
+    background-color: lightblue;
+    border-bottom: 10px solid white;
+}
+
+.companypic1 {
+    text-align: center;
+    height: 40vh;
+    border : 5px solid white;
+}
+
+.companyItems {
+    display : grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.company {
+    text-align: center;
+    font-size : 2em;
+    background-color: lightsalmon;
+    font-size: 25px;
+}
+
+ul {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+li {
+    font-size: 25px;
+}
+
+.companypara {
+    margin-bottom: 50px;
+}
+
+.form {
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: lightskyblue;
+    padding: 5px;
+    width: 75%;
+    color: black;
+
+}
+
+.footer {
+    font-weight: bold;
+}
+
+#formdisplay {
+    display: none;
+}
+
+.hide {
+    display: none;
+  }
+
+#isASpan {
+    display: none;
+}
+
+#isASpan2 {
+    display: none;
+}
+
+#isASpan3 {
+    display: none;
+}
+
+#isASpanRadio {
+    display: none;
+}
+
+#isASpanRadioTwo {
+    display: none;
+}
+
+
+#booktrip{
+    visibility: hidden;
+}

@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Travel Elites</title>
+  </head>
+  <body>
+    <div class="logo">
+      <h1 class="logo">Travel Elites</h1>
+    </div>
+    <div class="logo">
+      <img class="logopic" src=images/logo.webp alt=logo>
+    </div>
+    <div class="country">
+      <h2 class="header">Germany</h2>
+      <img class="countrypic" src=images/country.png alt=country>
+      <h3 class="plus"></h3>
+      <div>
+        <ul>The first printed book was in German </ul>
+        <li>Germany has a population of 81 million people </li>
+        <li>There are over 300 different kinds of bread in Germany</li>
+        <li>In Germany there’s no punishment for a prisoner who tries to escape from jail</li>
+      </div>
+        <li> - Germany has a population of 81 million people </li>
+        <li> There are over 300 different kinds of bread in Germany </li>
+      <li>Germany is one of the most densely populated countries in the world</li>
+      <div class="city">
+        <h2 class="header">City</h2>
+        <div class="cityItems">
+          <div class="cityImages">
+            <img class="citypic1" src=images/city1.gif alt=citypic1>
+            <h3 class="plus"></h3>
+            <div>
+              <ul>Berlin</ul>
+              <li>is nine times bigger than Paris</li>
+              <li>is covered in museums</li>
+              <li>Transport system is so long that it actually travels 8.7 times around the Earth each day. </li>
+            </div>
+            <li>Berlin was voted as the Germany’s most dog-friendly city</li>
+            <li>There are around 1,700 of bridges in Berlin</li>
+            </ul>
+          </div>
+          <div class=cityImages>
+            <img class="citypic2" src=images/city2.jpg alt=citypic1>
+            <h3 class="plus"></h3>
+            <div>
+            <ul>Hamburg</ul>
+            <li>The first printed book was in German.</li>
+            <li>Germany has a population of 81 million people</li>
+            <li>There are over 300 different kinds of bread in Germany</li>
+          </div>
+            <li>In Germany there’s no punishment for a prisoner who tries to escape from jail</li>
+            <li>There are around 1,700 of bridges in Berlin. </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="transportation">
+        <h2 class="header">Transportation</h2>
+        <div class="trasnportationItems">
+          <div class="transportationImages">
+            <img class="transportationpic1" src=images/transportation1.webp alt=transportationpic1>
+            <ul>Train</ul>
+            <li>Take a ride on one of the city’s ferries to see how Hamburg lives and breathes by the River Elbe.</li>
+          </div>
+          <div class=TrasnportationImages>
+            <img class="transportationpic2" src=images/transportation2.jpg alt=transportationpic2>
+            <ul>Taxi</ul>
+            <li>are a great way to see all of germany many companies offer plans for you to go spot to spot for a set fee</li>
+          </div>
+        </div>
+      </div>
+      <div class="company">
+        <h2 class="header">Comapany / Location / Form</h2>
+        <p class="companypara">Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
+        <div class="companyItems">
+          <div class="companyImages">
+            <img class="companypic1" src=images/company1.png alt=company>
+            <div></div>
+            <h3 class="header">Adam Elliott</h3>
+          </div>
+          <form
+                id="ticket_form" 
+                name="ticket_form"
+                action="page2.html" 
+                method="get">
+                <label>Phase 3 Form</label>
+                <br><br>
+                <label>First Input Section</label>
+                <br><br>
+                <label>Name &nbsp;</label>
+                <input type="text" 
+                    id="input_name"
+                    name="input_name">
+                    <span id="isASpan">Invalid Entry</span>
+                <br><br>
+                <label>Passport &nbsp;</label>
+                <input type="text" 
+                    id="passport_name"
+                    name="passport_name">
+                    <span id="isASpan2">Invalid Entry</span>
+                <br>
+                <br>
+                <label>Credit Card &nbsp;</label>
+                <input type="text" 
+                    id="creditcard_name"
+                    name="creditcard_name">
+                    <span id="isASpan3">Invalid Entry</span>
+                <br>
+                <br>
+                <label>Second Input Section</label>
+                <br>
+                <br>
+                <label>Select City &emsp; </label>
+                <input type="radio" 
+                       name="block1" 
+                       id="c1"
+                       value="none1">none &nbsp;
+
+                <input type="radio" 
+                       name="block1" 
+                       id="c2"
+                       value="citya">Berlin &nbsp;
+
+                <input type="radio" 
+                       name="block1" 
+                       id="c3"
+                       value="cityb">Hamburg
+                       <span id="isASpanRadio">Invalid Entry</span>
+                <br>
+                <br>
+
+                <label>Select Transportation &emsp; </label>
+                <input type="radio" 
+                       name="block2" 
+                       id="c4"
+                       value="none2">none &nbsp;
+
+                <input type="radio" 
+                       name="block2" 
+                       id="c5"
+                       value="train">Train &nbsp;
+
+                <input type="radio" 
+                       name="block2" 
+                       id="c6"
+                       value="bus">Taxi
+                       <span id="isASpanRadioTwo">Invalid Entry</span>
+                <br><br>
+
+                <input type="button" id="process"
+                        value="Pre-Process">
+                <input type="button" id="reset"
+                        value="Reset">
+                <input type="submit" id="booktrip"
+                        value="Book trip">
+                        <br>
+                <div id="formdisplay">
+                <label>Destination</label>
+                <input type="text" 
+                  id="output_destination"
+                  name="output_destination" disabled>
+                <br>
+                <label>Passport</label>
+                <input type="text" 
+                  id="output_passport"
+                  name="output_passport" disabled>
+                <br>
+                <label>Cost</label>
+                <input type="text" 
+                    id="output_cost"
+                    name="output_cost" disabled>
+                <br>
+                <label>City Selected</label>
+                <input type="text" 
+                    id="city_selected"
+                    name="city_selected" disabled>
+                <br>
+                <label>Transportation Method</label>
+                <input type="text" 
+                    id="transportation_method"
+                    name="transportation_method" disabled>
+                    </div>
+                <br>
+                <br>
+            </form>
+        </div>
+      </div>
+      <footer class = footer>Travel Elites Inc.</footer>
+      <script src="script.js"></script>
+  </body>
+</html>
